@@ -1,6 +1,14 @@
-body{
-    background-image: url("img1.jpg");
-    height: 100vh;
-    background-size:cover;
-    background-position:center;
+body{margin:0 auto; width:980px; position:relative;}
+
+div.navbar{width:100%; height:50px;}
+div.navbar ul{list-style-type: none; padding: 0px; margin: 0 auto;}
+div.navbar li{float:left; padding: 1px; margin:0px;}
+div.navbar a{display: block; width:150px; border-radius: 10px; -border-image:10px;}
+a:link{font-weight:bold; color:aqua; background-color: black; text-align: center; padding:5px;}
+a:hover{background-color: blanchedalmond;}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
